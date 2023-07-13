@@ -119,7 +119,7 @@ export default function WarehosingManagementService() {
                     <img src='/icon-arrow-down.svg' alt='down-arrow' />
                   </div>
                   <div className={s.answer}>
-                    <section>_</section>
+                    <section></section>
                   </div>
                 </div>
               </li>
@@ -133,7 +133,7 @@ export default function WarehosingManagementService() {
                     <img src='/icon-arrow-down.svg' alt='down-arrow' />
                   </div>
                   <div className={s.answer}>
-                    <section>_</section>
+                    <section></section>
                   </div>
                 </div>
               </li>
@@ -147,7 +147,7 @@ export default function WarehosingManagementService() {
                     <img src='/icon-arrow-down.svg' alt='down-arrow' />
                   </div>
                   <div className={s.answer}>
-                    <section>_</section>
+                    <section></section>
                   </div>
                 </div>
               </li>
@@ -161,7 +161,7 @@ export default function WarehosingManagementService() {
                     <img src='/icon-arrow-down.svg' alt='down-arrow' />
                   </div>
                   <div className={s.answer}>
-                    <section>_</section>
+                    <section></section>
                   </div>
                 </div>
               </li>
@@ -175,7 +175,7 @@ export default function WarehosingManagementService() {
                     <img src='/icon-arrow-down.svg' alt='down-arrow' />
                   </div>
                   <div className={s.answer}>
-                    <section>_</section>
+                    <section></section>
                   </div>
                 </div>
               </li>
@@ -192,7 +192,7 @@ export default function WarehosingManagementService() {
                     <img src='/icon-arrow-down.svg' alt='down-arrow' />
                   </div>
                   <div className={s.answer}>
-                    <section>_</section>
+                    <section></section>
                   </div>
                 </div>
               </li>
@@ -206,7 +206,7 @@ export default function WarehosingManagementService() {
                     <img src='/icon-arrow-down.svg' alt='down-arrow' />
                   </div>
                   <div className={s.answer}>
-                    <section>_</section>
+                    <section></section>
                   </div>
                 </div>
               </li>
@@ -237,7 +237,7 @@ export default function WarehosingManagementService() {
                     <img src='/icon-arrow-down.svg' alt='down-arrow' />
                   </div>
                   <div className={s.answer}>
-                    <section>_</section>
+                    <section></section>
                   </div>
                 </div>
               </li>
@@ -315,7 +315,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -329,7 +329,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -343,7 +343,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -360,7 +360,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -377,7 +377,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -402,7 +402,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -416,7 +416,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -433,7 +433,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -450,7 +450,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -466,7 +466,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -490,7 +490,7 @@ export default function WarehosingManagementService() {
                     <img src='/icon-arrow-down.svg' alt='down-arrow' />
                   </div>
                   <div className={s.answer}>
-                    <section>_</section>
+                    <section></section>
                   </div>
                 </div>
               </li>
@@ -507,7 +507,7 @@ export default function WarehosingManagementService() {
                     <img src='/icon-arrow-down.svg' alt='down-arrow' />
                   </div>
                   <div className={s.answer}>
-                    <section>_</section>
+                    <section></section>
                   </div>
                 </div>
               </li>
@@ -524,7 +524,7 @@ export default function WarehosingManagementService() {
                     <img src='/icon-arrow-down.svg' alt='down-arrow' />
                   </div>
                   <div className={s.answer}>
-                    <section>_</section>
+                    <section></section>
                   </div>
                 </div>
               </li>
@@ -541,7 +541,7 @@ export default function WarehosingManagementService() {
                     <img src='/icon-arrow-down.svg' alt='down-arrow' />
                   </div>
                   <div className={s.answer}>
-                    <section>_</section>
+                    <section></section>
                   </div>
                 </div>
               </li>
@@ -555,7 +555,7 @@ export default function WarehosingManagementService() {
                     <img src='/icon-arrow-down.svg' alt='down-arrow' />
                   </div>
                   <div className={s.answer}>
-                    <section>_</section>
+                    <section></section>
                   </div>
                 </div>
               </li>
@@ -586,7 +586,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -600,7 +600,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -614,7 +614,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -628,7 +628,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -642,7 +642,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -664,7 +664,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -681,7 +681,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
@@ -698,7 +698,7 @@ export default function WarehosingManagementService() {
                         <img src='/icon-arrow-down.svg' alt='down-arrow' />
                       </div>
                       <div className={s.answer}>
-                        <section>_</section>
+                        <section></section>
                       </div>
                     </div>
                   </li>
