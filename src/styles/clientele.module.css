@@ -1,0 +1,64 @@
+.container {
+  padding: 2rem 12%;
+  min-height: 70vh;
+  background-color: #f6f6f1;
+}
+
+.container ul {
+  text-align: center;
+  color: #1163aa;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.dropHead {
+  padding: 1rem;
+  white-space: nowrap;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.dropImages {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.1s ease-out;
+}
+
+.container ul li:hover .dropHead {
+  color: #2499c0;
+}
+
+.container ul li:hover {
+  cursor: pointer;
+  border: solid 0.15rem #1163aa;
+}
+
+.dropImages section {
+  overflow: hidden;
+}
+
+.dropImages section img {
+  max-width: 12rem;
+}
+
+.activeItem {
+  border: solid 0.15rem #1163aa;
+}
+
+.activeItem .dropImages {
+  grid-template-rows: 1fr;
+}
+
+.activeItem .dropImages section {
+  padding: 2rem 4rem;
+  border: solid 0.15rem #1163aa;
+  min-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-evenly;
+  row-gap: 2rem;
+}

@@ -1,0 +1,121 @@
+#firstAbout {
+  background-color: #f6f1f1;
+  padding-inline: 14%;
+  padding-block: 1rem;
+}
+#firstAbout .mainHeading {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #1163aa;
+}
+#firstAbout .subHeading {
+  font-weight: 2rem;
+  margin-block: 0.75rem;
+}
+#firstAbout .aboutDescription {
+  line-height: 1.25;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+#secondAbout {
+  background-color: whitesmoke;
+  padding: 2rem 0;
+}
+#thirdAbout {
+  padding-inline: 14%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  display: grid;
+  background-color: #f6f1f1;
+}
+#thirdAbout .thirdSubHeading {
+  margin-top: 1rem;
+  color: #2499c0;
+  margin-bottom: 2rem;
+}
+#thirdAbout .thirdHeading {
+  max-width: 45ch;
+  color: #1163aa;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+.whyChoseUs {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.whyChoseUs > div {
+  /* display: flex; */
+  margin-inline: 1.5rem;
+  padding-inline: 1rem;
+  padding-block: 2.5rem;
+  flex-direction: column;
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.whyChoseUs > div img {
+  margin-top: 0.25rem;
+  margin-bottom: 1.25rem;
+}
+.whyUsHeading {
+  color: #1163aa;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: dotted white;
+}
+.whyUsDescription {
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 960px) {
+  #firstAbout {
+    padding-inline: 8%;
+  }
+  #firstAbout .mainHeading {
+    font-size: 2.5rem;
+  }
+  #firstAbout .subHeading {
+    font-size: 1.25rem;
+  }
+  #firstAbout .aboutDescription {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+  .whyChoseUs {
+    flex-wrap: wrap;
+    row-gap: 2rem;
+  }
+  .whyChoseUs > div {
+    max-width: 30%;
+  }
+  #thirdAbout {
+    padding-inline: 5rem;
+  }
+  #thirdAbout .thirdHeading {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #firstAbout {
+    text-align: center;
+  }
+  #firstAbout .subHeading {
+    font-size: 1.1rem;
+  }
+  #firstAbout .aboutDescription {
+    line-height: 1.25;
+  }
+  .whyChoseUs > div {
+    max-width: 100%;
+  }
+  #thirdAbout {
+    padding-inline: 2.5rem;
+  }
+  #thirdAbout .thirdHeading {
+    font-size: 2rem;
+  }
+}

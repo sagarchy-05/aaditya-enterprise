@@ -1,0 +1,262 @@
+#pageTitle {
+  width: 100%;
+  background-color: #1163aa;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  line-height: 2;
+}
+.pageHeading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.pageSubHeading {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.getInTouch {
+  margin: 1rem auto;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.5rem;
+  outline: solid 0.15rem #2499c0;
+  background-color: #f6f6f1;
+  color: #1163aa;
+  max-width: fit-content;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.getInTouch:hover {
+  background-color: #2499c0;
+  color: #f6f6f1;
+}
+#serviceDetail {
+  background-color: #f6f6f1;
+  padding: 1rem 12% 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.detailLeft {
+  max-width: 45vw;
+  line-height: 2;
+  font-weight: 500;
+}
+.lmsChange1 {
+  max-width: 35vw;
+  line-height: 1.25;
+}
+.detailHead {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.detailDescri ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.detailRight {
+  max-width: 30vw;
+  display: flex;
+  align-items: flex-end;
+}
+.lmsChange2 {
+  max-width: 35vw;
+  align-items: center;
+}
+.detailRight img {
+  max-width: 100%;
+}
+#QNA {
+  background-color: #1163aa;
+  color: whitesmoke;
+  padding: 2rem 12%;
+  line-height: 1.5;
+}
+.qnaHead {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+}
+.plaintext {
+  padding: 0.5rem;
+}
+.plaintext span {
+  color: black;
+}
+.qnaMain {
+  margin: 1rem auto;
+}
+.qnaMain ul li {
+  margin: 0.1rem 0;
+}
+.qnaFull {
+  background-color: #f6f6f1;
+  color: black;
+}
+.question {
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question:hover {
+  cursor: pointer;
+}
+.question p {
+  margin-left: 1rem;
+  font-weight: 600;
+  max-width: 90%;
+}
+.question img {
+  margin-right: 1rem;
+  /* padding: 0.1rem 0.25rem; */
+  width: 1rem;
+}
+.answer {
+  display: grid;
+  grid-template-rows: 0fr;
+
+  transition: grid-template-rows 0.1s linear;
+}
+.answer section {
+  overflow: hidden;
+  color: white;
+}
+.activeItem .qnaFull .answer {
+  grid-template-rows: 1fr;
+}
+.activeItem .qnaFull .answer {
+  overflow: visible;
+  color: white;
+  background-color: #1163aa;
+}
+.activeItem .qnaFull .answer section {
+  padding: 0.5rem 1rem;
+}
+.handPointer ul li {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.handPointer ul li img {
+  max-width: 1.5rem;
+  margin-right: 0.4rem;
+}
+.padi12 {
+  padding: 1rem 12% 1.5rem;
+}
+#functions {
+  display: flex;
+  gap: 2rem;
+}
+.functionHead {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.qnaSubHead {
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.textCenter {
+  text-align: center;
+}
+.manpower {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.manpower img {
+  max-width: 40%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.ourClient {
+  margin: 1rem auto;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1163aa;
+}
+.carouselDiv {
+  margin: 1.5rem 0;
+  background-color: #f6f6f1;
+}
+
+@media screen and (max-width: 1300px) {
+  #serviceDetail {
+    padding: 2rem 10%;
+  }
+  .detailLeft {
+    max-width: 40vw;
+  }
+  .detailRight {
+    max-width: 35vw;
+    align-items: center;
+  }
+  .padi12 {
+    padding-inline: 8%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #serviceDetail {
+    padding: 2rem 7%;
+  }
+  .detailRight {
+    max-width: 45vw;
+    align-items: flex-end;
+  }
+  .pageSubHeading {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  #pageTitle {
+    line-height: 1.5;
+  }
+  .pageHeading {
+    font-size: 2rem;
+  }
+  #serviceDetail {
+    padding: 2rem 2%;
+  }
+  .detailLeft {
+    max-width: 50vw;
+  }
+  .detailRight {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  #serviceDetail {
+    padding: 2rem 5%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  .detailLeft {
+    max-width: 100%;
+  }
+  .detailHead {
+    margin-bottom: 0.75rem;
+  }
+  .detailRight {
+    max-width: 90%;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #QNA {
+    padding: 1.5rem 7%;
+  }
+  #functions {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

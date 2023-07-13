@@ -1,0 +1,164 @@
+#serviceMain {
+  font-weight: 500;
+  background-color: #f6f6f1;
+  padding: 2rem 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.serviceLeft {
+  display: grid;
+  gap: 1rem;
+  line-height: 1.5;
+  color: #1163aa;
+  max-width: 35vw;
+}
+.serviceLeft .heading {
+  font-weight: 600;
+}
+.serviceLeft div ul li:hover {
+  color: #2499c0;
+  text-decoration: underline;
+}
+.serviceRight {
+  max-width: 35vw;
+}
+.serviceRight img {
+  max-width: 100%;
+}
+#container {
+  padding: 2rem 14%;
+  display: grid;
+  gap: 2rem;
+}
+.eachService {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5rem 0;
+}
+.specialService .eachServiceDetail {
+  order: -1;
+}
+.eachServicePhoto {
+  max-width: 35vw;
+}
+.eachServicePhoto img {
+  max-width: 100%;
+}
+.eachServiceDetail {
+  padding: 1rem;
+  display: grid;
+  align-items: center;
+}
+.eachServiceHead {
+  white-space: nowrap;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1163aa;
+}
+.eachServiceDescri {
+  max-width: 25vw;
+  letter-spacing: 0.05rem;
+}
+.eachServiceButton {
+  font-weight: 600;
+  max-width: fit-content;
+  background-color: #1163aa;
+  color: whitesmoke;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.eachServiceButton:hover {
+  cursor: pointer;
+  background-color: #2499c0;
+}
+
+@media screen and (max-width: 1280px) {
+  #serviceMain {
+    padding-inline: 8%;
+  }
+  .serviceRight {
+    max-width: 40vw;
+  }
+  #container {
+    padding: 1.8rem 10%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #serviceMain {
+    padding-inline: calc(1rem + 2.5vw);
+  }
+  .serviceRight {
+    max-width: 50vw;
+  }
+  #container {
+    padding: 1.5rem 7.5%;
+  }
+  .eachServicePhoto {
+    max-width: 45vw;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  #serviceMain {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 2rem;
+  }
+  .serviceLeft,
+  .serviceRight {
+    max-width: 100%;
+  }
+  .serviceDescri {
+    max-width: 50ch;
+  }
+  .serviceRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .serviceRight img {
+    max-width: 90%;
+    margin: auto;
+  }
+  #container {
+    padding: 1.5rem 5%;
+    gap: 1rem;
+  }
+  .eachService {
+    margin: 2rem 0;
+  }
+  .eachServicePhoto {
+    max-width: 45vw;
+  }
+  .eachServiceDescri {
+    max-width: 35vw;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .eachService {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin: 1.5rem 0;
+    gap: 1.5rem;
+  }
+  .specialService {
+    flex-direction: column;
+  }
+  .eachServicePhoto {
+    margin: 0 auto;
+    max-width: 75%;
+  }
+  .eachServiceDetail {
+    margin-left: 1rem;
+    width: 80%;
+    gap: 1rem;
+  }
+  .eachServiceDescri {
+    max-width: 100%;
+  }
+}

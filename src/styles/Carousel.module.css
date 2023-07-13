@@ -1,0 +1,15 @@
+#carousel {
+  padding-inline: 5rem;
+  background-color: #f6f1f1;
+}
+#newcarousel {
+  background-color: whitesmoke;
+  padding-inline: 5rem;
+}
+.box {
+  padding: 0 1rem;
+}
+.box img {
+  max-width: 100%;
+  margin-inline: 2rem;
+}
