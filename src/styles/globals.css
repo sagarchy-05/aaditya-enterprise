@@ -330,7 +330,6 @@ footer {
   justify-content: space-evenly;
 }
 .thirdLayer p span {
-  font-size: 1.1rem;
   cursor: pointer;
 }
 /* Thank you */
@@ -452,5 +451,32 @@ footer {
   .firstLayer .contactUsBut {
     padding-block: 0.5rem;
     padding-inline: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #topLeft {
+    flex-wrap: nowrap;
+    gap: 0.9rem;
+  }
+  .topLeftItem h6 {
+    font-size: 0.7rem;
+    white-space: nowrap;
+  }
+  .topLeftItem img {
+    max-width: 1rem;
+  }
+  .firstLayer {
+    gap: 1rem;
+  }
+  .footerPhoto {
+    max-width: 45vw;
+  }
+  .footerRight {
+    gap: 1.5rem;
+  }
+  .footerRight .fdescri {
+    display: none;
+    font-size: 0.9rem;
   }
 }

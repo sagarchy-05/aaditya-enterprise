@@ -61,15 +61,36 @@ export default function NavBar() {
                   />
                 </li>
                 <li>
-                  <Link href='/About/AboutUs'>About Us</Link>
+                  <Link
+                    href='/About/AboutUs'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
+                    About Us
+                  </Link>
                 </li>
                 <li>
-                  <Link href='/About/OurTeam'>Our Team</Link>
+                  <Link
+                    href='/About/OurTeam'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
+                    Our Team
+                  </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link href='/Services'>Services</Link>
+              <Link
+                href='/Services'
+                onClick={() => {
+                  setMenu(false);
+                }}
+              >
+                Services
+              </Link>
               <img src='/icon-arrow-down.svg' alt='arrow-down' />
               <ul id='prim-drop'>
                 <li>
@@ -80,22 +101,44 @@ export default function NavBar() {
                   />
                 </li>
                 <li>
-                  <Link href='/Services/3PLWarehousingManagementServices'>
+                  <Link
+                    href='/Services/3PLWarehousingManagementServices'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
                     3PL Warehouse Management Services
                   </Link>
                 </li>
                 <li>
-                  <Link href='/Services/LastMileDeliveryServices'>
+                  <Link
+                    href='/Services/LastMileDeliveryServices'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
                     Last Mile Delivery Services
                   </Link>
                 </li>
                 <li>
-                  <Link href='/Services/DigitalMarkettingServicess'>
+                  <Link
+                    href='/Services/DigitalMarkettingServicess'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
                     Digital Marketting Services
                   </Link>
                 </li>
                 <li>
-                  <Link href='/Services/DataEntry'>Data Entry</Link>
+                  <Link
+                    href='/Services/DataEntry'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
+                    Data Entry
+                  </Link>
                   <img
                     className='nextArrow'
                     src='/next.png'
@@ -110,114 +153,226 @@ export default function NavBar() {
                       />
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/CopyPasteService'>
+                      <Link
+                        href='/Services/DataEntry/CopyPasteService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Copy Paste Service
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/DatabaseDataEntry'>
+                      <Link
+                        href='/Services/DataEntry/DatabaseDataEntry'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Database Data Entry
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/DatabaseDevelopmentMigration'>
+                      <Link
+                        href='/Services/DataEntry/DatabaseDevelopmentMigration'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Database Development Migration
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/DataCapture'>
+                      <Link
+                        href='/Services/DataEntry/DataCapture'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Data Capture
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/DataEntryBusinessServeys'>
+                      <Link
+                        href='/Services/DataEntry/DataEntryBusinessServeys'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         DataEntry Business Serveys
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/DataEntryEnrolment'>
+                      <Link
+                        href='/Services/DataEntry/DataEntryEnrolment'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         DataEntry Enrolment
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/DataExtraction'>
+                      <Link
+                        href='/Services/DataEntry/DataExtraction'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Data Extraction
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/DocumentDataEntry'>
+                      <Link
+                        href='/Services/DataEntry/DocumentDataEntry'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Document DataEntry
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/DocumentManagement'>
+                      <Link
+                        href='/Services/DataEntry/DocumentManagement'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Document Management
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/ImagaDataEntry'>
+                      <Link
+                        href='/Services/DataEntry/ImagaDataEntry'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Image Data Entry
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/InsuranceClaims'>
+                      <Link
+                        href='/Services/DataEntry/InsuranceClaims'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Insurance Claims
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/InternetDataInput'>
+                      <Link
+                        href='/Services/DataEntry/InternetDataInput'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Internet DataInput
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/LegalDocuments'>
+                      <Link
+                        href='/Services/DataEntry/LegalDocuments'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Legal Documents
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/MailingList'>
+                      <Link
+                        href='/Services/DataEntry/MailingList'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Mailing List
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/NumericTest'>
+                      <Link
+                        href='/Services/DataEntry/NumericTest'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Numeric Test
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/OfflineDataEntryServices'>
+                      <Link
+                        href='/Services/DataEntry/OfflineDataEntryServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Offline DataEntry Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/OffshoreDataEntry'>
+                      <Link
+                        href='/Services/DataEntry/OffshoreDataEntry'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Offshore Data Entry
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/Product Registration'>
+                      <Link
+                        href='/Services/DataEntry/Product Registration'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Product Registration
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/RestaurantMenu'>
+                      <Link
+                        href='/Services/DataEntry/RestaurantMenu'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Restaurant Menu
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DataEntry/Website Data Entry'>
+                      <Link
+                        href='/Services/DataEntry/Website Data Entry'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         WebsiteDataEntry
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link href='/Services/BackOfficeOutshoringServices'>
+                  <Link
+                    href='/Services/BackOfficeOutshoringServices'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
                     Back Office Outshoring Services
                   </Link>
                 </li>
                 <li>
-                  <Link href='/Services/ContactCentre'>Contact Centre</Link>
+                  <Link
+                    href='/Services/ContactCentre'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
+                    Contact Centre
+                  </Link>
                   <img
                     className='nextArrow'
                     src='/next.png'
@@ -232,74 +387,144 @@ export default function NavBar() {
                       />
                     </li>
                     <li>
-                      <Link href='/Services/ContactCentre/InboundCustomerService'>
+                      <Link
+                        href='/Services/ContactCentre/InboundCustomerService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Inbound Customer Service
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/ContactCentre/InboundSalesLeadConversionServices'>
+                      <Link
+                        href='/Services/ContactCentre/InboundSalesLeadConversionServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Inbound Sales Lead Conversion Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/ContactCentre/InboundTechnicalSupportServices'>
+                      <Link
+                        href='/Services/ContactCentre/InboundTechnicalSupportServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Inbound Technical Support Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/ContactCentre/MissedCallBackService'>
+                      <Link
+                        href='/Services/ContactCentre/MissedCallBackService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Missed Call Back Service
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/ContactCentre/OrderTakingService'>
+                      <Link
+                        href='/Services/ContactCentre/OrderTakingService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Order Taking Service
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/ContactCentre/AppointmentShedulingServices'>
+                      <Link
+                        href='/Services/ContactCentre/AppointmentShedulingServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         AppointmentShedulingServices
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/ContactCentre/CharityFundRaisingService'>
+                      <Link
+                        href='/Services/ContactCentre/CharityFundRaisingService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         CharityFund Raising Service
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/ContactCentre/CrossSellingUpSellingService'>
+                      <Link
+                        href='/Services/ContactCentre/CrossSellingUpSellingService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Cross Selling Up Selling Service
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/ContactCentre/DebtCollectionService'>
+                      <Link
+                        href='/Services/ContactCentre/DebtCollectionService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         DebtCollectionService
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/ContactCentre/OutboundCallBroadcastingService'>
+                      <Link
+                        href='/Services/ContactCentre/OutboundCallBroadcastingService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         OutboundCallBroadcastingService
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/ContactCentre/OutboundSurvey'>
+                      <Link
+                        href='/Services/ContactCentre/OutboundSurvey'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         OutboundSurvey
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/ContactCentre/SoftLeadGeneration'>
+                      <Link
+                        href='/Services/ContactCentre/SoftLeadGeneration'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         SoftLead Generation
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/ContactCentre/CustomerServiceSupport'>
+                      <Link
+                        href='/Services/ContactCentre/CustomerServiceSupport'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Customer Service Support
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link href='/Services/DocumentsDigitization'>
+                  <Link
+                    href='/Services/DocumentsDigitization'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
                     Documents Digitization
                   </Link>
                   <img
@@ -316,84 +541,164 @@ export default function NavBar() {
                       />
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/OCRCleanupService'>
+                      <Link
+                        href='/Services/DocumentsDigitization/OCRCleanupService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         OCR Cleanup Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/DocumentScanningService'>
+                      <Link
+                        href='/Services/DocumentsDigitization/DocumentScanningService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Document Scanning Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/CheckProcessingService'>
+                      <Link
+                        href='/Services/DocumentsDigitization/CheckProcessingService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Check Processing Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/DataAbstractionService'>
+                      <Link
+                        href='/Services/DocumentsDigitization/DataAbstractionService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Data Abstraction Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/DataCleaningService'>
+                      <Link
+                        href='/Services/DocumentsDigitization/DataCleaningService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Data Cleaning Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/DataDeduplicationService'>
+                      <Link
+                        href='/Services/DocumentsDigitization/DataDeduplicationService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Data Deduplication Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/FormsProcessingServices'>
+                      <Link
+                        href='/Services/DocumentsDigitization/FormsProcessingServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Forms Processing Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/ImageProcessingServices'>
+                      <Link
+                        href='/Services/DocumentsDigitization/ImageProcessingServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Image Processing Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/InsuranceClaimsProcessingServices'>
+                      <Link
+                        href='/Services/DocumentsDigitization/InsuranceClaimsProcessingServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Insurance Claims Processing Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/DocumentScanningService'>
+                      <Link
+                        href='/Services/DocumentsDigitization/DocumentScanningService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         DocumentScanningService
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/MailingListCompilationServices'>
+                      <Link
+                        href='/Services/DocumentsDigitization/MailingListCompilationServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         MailingList Compilation Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/MarketResearchFormsServices'>
+                      <Link
+                        href='/Services/DocumentsDigitization/MarketResearchFormsServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Market Research Forms Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/SurveyProcessingServices'>
+                      <Link
+                        href='/Services/DocumentsDigitization/SurveyProcessingServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         SurveyProcessingServices
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/DocumentsDigitization/TransactionProcessingServices'>
+                      <Link
+                        href='/Services/DocumentsDigitization/TransactionProcessingServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Transaction Processing Services
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link href='/Services/DocumentManagementServices'>
+                  <Link
+                    href='/Services/DocumentManagementServices'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
                     Document Management Services
                   </Link>
                 </li>
                 <li>
-                  <Link href='/Services/WebDataEnabled'>
+                  <Link
+                    href='/Services/WebDataEnabled'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
                     Web / Data Enabled
                   </Link>
                   <img
@@ -410,49 +715,94 @@ export default function NavBar() {
                       />
                     </li>
                     <li>
-                      <Link href='/Services/WebDataEnabled/DataConversionServices'>
+                      <Link
+                        href='/Services/WebDataEnabled/DataConversionServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Data Conversion Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/WebDataEnabled/EmailServices'>
+                      <Link
+                        href='/Services/WebDataEnabled/EmailServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Email Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/WebDataEnabled/FileConversionServices'>
+                      <Link
+                        href='/Services/WebDataEnabled/FileConversionServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         File Conversion Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/WebDataEnabled/HTMLConversionServices'>
+                      <Link
+                        href='/Services/WebDataEnabled/HTMLConversionServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         HTML Conversion Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/WebDataEnabled/LiveChatSupportServices'>
+                      <Link
+                        href='/Services/WebDataEnabled/LiveChatSupportServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Live Chat Support Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/WebDataEnabled/PDFConverisonServices'>
+                      <Link
+                        href='/Services/WebDataEnabled/PDFConverisonServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         PDF Converison Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/WebDataEnabled/SMSBroadcastingServices'>
+                      <Link
+                        href='/Services/WebDataEnabled/SMSBroadcastingServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         SMS Broadcasting Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/WebDataEnabled/XMLConverisonServices'>
+                      <Link
+                        href='/Services/WebDataEnabled/XMLConverisonServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         XML Converison Services
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link href='/Services/FieldVerificationservice'>
+                  <Link
+                    href='/Services/FieldVerificationservice'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
                     Field verification Service
                   </Link>
                   <img
@@ -469,24 +819,44 @@ export default function NavBar() {
                       />
                     </li>
                     <li>
-                      <Link href='/Services/FieldVerificationService/AccountsReceivableServices'>
+                      <Link
+                        href='/Services/FieldVerificationService/AccountsReceivableServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Accounts Receivable Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/FieldVerificationService/CustomerRetentionServices'>
+                      <Link
+                        href='/Services/FieldVerificationService/CustomerRetentionServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Customer Retention Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/FieldVerificationService/DebtCollectionServices'>
+                      <Link
+                        href='/Services/FieldVerificationService/DebtCollectionServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Debt Collection Services
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link href='/Services/SoftwareDevelopmentService'>
+                  <Link
+                    href='/Services/SoftwareDevelopmentService'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
                     Software Development Service
                   </Link>
                   <img
@@ -503,34 +873,64 @@ export default function NavBar() {
                       />
                     </li>
                     <li>
-                      <Link href='/Services/SoftwareDevelopmentService/ApplicationMigrationServices'>
+                      <Link
+                        href='/Services/SoftwareDevelopmentService/ApplicationMigrationServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Application Migration Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/SoftwareDevelopmentService/MobileAppDevelopmentServices'>
+                      <Link
+                        href='/Services/SoftwareDevelopmentService/MobileAppDevelopmentServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Mobile App Development Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/SoftwareDevelopmentService/SoftwareTestingServices'>
+                      <Link
+                        href='/Services/SoftwareDevelopmentService/SoftwareTestingServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Software Testing Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/SoftwareDevelopmentService/WebsiteDesigningService'>
+                      <Link
+                        href='/Services/SoftwareDevelopmentService/WebsiteDesigningService'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Website Designing Services
                       </Link>
                     </li>
                     <li>
-                      <Link href='/Services/SoftwareDevelopmentService/WebsiteDevelopmentServices'>
+                      <Link
+                        href='/Services/SoftwareDevelopmentService/WebsiteDevelopmentServices'
+                        onClick={() => {
+                          setMenu(false);
+                        }}
+                      >
                         Website Development Services
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link href='/Services/HR&PayrollServices'>
+                  <Link
+                    href='/Services/HR&PayrollServices'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
                     HR & Payroll Services
                   </Link>
                 </li>
@@ -548,21 +948,49 @@ export default function NavBar() {
                   />
                 </li>
                 <li>
-                  <Link href='/Process/HowWeWork'>How We Work</Link>
+                  <Link
+                    href='/Process/HowWeWork'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
+                    How We Work
+                  </Link>
                 </li>
                 <li>
-                  <Link href='/Process/OurProcess'>Our Process</Link>
+                  <Link
+                    href='/Process/OurProcess'
+                    onClick={() => {
+                      setMenu(false);
+                    }}
+                  >
+                    Our Process
+                  </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link href='/Clientele'>Clientele</Link>
+              <Link
+                href='/Clientele'
+                onClick={() => {
+                  setMenu(false);
+                }}
+              >
+                Clientele
+              </Link>
             </li>
             {/* <li>
               <Link href='/InvestorsRelations'>Investors Relations</Link>
             </li> */}
             <li>
-              <Link href='/ContactUs'>Contact Us</Link>
+              <Link
+                href='/ContactUs'
+                onClick={() => {
+                  setMenu(false);
+                }}
+              >
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>
