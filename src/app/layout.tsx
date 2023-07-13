@@ -11,10 +11,10 @@ import 'aos/dist/aos.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata = {
-  title: 'AADITYA ENTERPRISE',
-  description: 'Aaditya Enterprise',
-};
+// export const metadata = {
+//   title: 'AADITYA ENTERPRISE',
+//   description: 'Aaditya Enterprise',
+// };
 
 export default function RootLayout({
   children,
