@@ -21,7 +21,7 @@ export default function Home() {
                 <ul>
                   <li>
                     <img src='checked-50.png' alt='checked' />
-                    <Link href='/Services/3PLWarehouseManagementServices'>
+                    <Link href='/Services/3PLWarehousingManagementServices'>
                       3PL Warehouse Management
                     </Link>
                   </li>
