@@ -139,7 +139,7 @@ td {
   display: flex;
   flex-direction: column;
   position: absolute;
-  align-items: start;
+  align-items: flex-start;
   left: 10rem;
   top: 1rem;
   padding-right: 1rem;
@@ -206,6 +206,10 @@ td {
 }
 #MobNav ul li:focus-within #prim-drop {
   display: flex;
+}
+#MobNav ul li:focus-within #prim-drop {
+  padding-top: 5rem;
+  /* margin-top: 5rem; */
 }
 #prim-drop li:focus-within #m-sec-drop {
   display: flex;

@@ -267,3 +267,20 @@
     max-width: 100%;
   }
 }
+
+@media screen and (max-width: 470px) {
+  .thirdSection {
+    margin-block: 0.75rem;
+    padding-inline: 7%;
+  }
+  .floatingtext .heading {
+    font-size: 1.5rem;
+  }
+  .floatingtext .floatingDescription {
+    font-size: 0.9rem;
+    line-height: 1.1;
+  }
+  .firthFloat {
+    gap: 0.5rem;
+  }
+}
