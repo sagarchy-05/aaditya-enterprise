@@ -88,7 +88,7 @@ const ContactUs = () => {
             <input
               type='hidden'
               name='_next'
-              value='http://localhost:3000/ContactUs/ThankYou'
+              value='https://aaditya-enterprise.vercel.app/ContactUs/ThankYou'
             ></input>
             <button type='submit' id={s.submit}>
               Submit

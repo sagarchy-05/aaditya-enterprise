@@ -126,3 +126,15 @@
     order: 1;
   }
 }
+
+@media screen and (max-width: 430px) {
+  #contactInfo .contactHeading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  #contactInfo .contactHeading {
+    font-size: 1.5rem;
+  }
+}
